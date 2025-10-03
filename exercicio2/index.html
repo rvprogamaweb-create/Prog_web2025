@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web@rt Júnior</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho da página com o nome da empresa e menu de navegação -->
+  <header id="topo">
+    <h1>Web@rt Júnior</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção sobre a empresa -->
+  <section id="sobre" class="secao-clara">
+    <h2>Quem somos</h2>
+    <p>A Web@rt Júnior é especializada na criação de designs e estampas.</p>
+  </section>
+
+  <!-- Galeria de imagens com figure e figcaption -->
+  <section id="galeria" class="secao-escura">
+    <h2>Galeria</h2>
+    <figure>
+      <img src="camiseta-terceirao-furacao.jpg"Arte 1 />
+      <figcaption>Exemplo - Arte A</figcaption>
+    </figure>
+    <figure>
+      <img src="mockup---modelo-21-terceir-o---site---frente-98uiufxc3l.webp"Arte 2 />
+      <figcaption>Exemplo - Arte B</figcaption>
+    </figure>
+  </section>
+
+  <!-- Tabela de serviços -->
+  <section id="servicos" class="secao-clara">
+    <h2>Nossos Serviços</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Serviço</th>
+          <th>Descrição</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Camisa 👔</td>
+          <td>Modelo Bronze 🥉</td>
+          <td>R$300 💵</td>
+        </tr>
+        <tr>
+          <td>Camisa terceirão 👕</td>
+          <td>Modelo Prata 🥈</td>
+          <td>R$450 💵</td>
+        </tr> 
+        <tr>
+          <td>Casaco 🧥</td>
+          <td>Modelo ouro 🥇</td>
+          <td>R$700 💵</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Formulário de contato -->
+  <section id="contato" class="secao-escura">
+    <h2>Fale Conosco</h2>
+    <form action="#" method="post">
+      <b>
+      <label for="nome">Nome:</label><br />
+      <input type="text" id="nome" name="nome" required /><br />
+
+      <label for="email">E-mail:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="mensagem">Mensagem:</label><br />
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br />
+      <b>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <p>&copy; 2025 Web@rt Júnior. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
