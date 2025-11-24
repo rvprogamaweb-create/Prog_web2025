@@ -1,0 +1,108 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalho com fundo escuro e texto claro */
+  #topo {
+    background-color: #0f8248;
+    color: rgb(8, 17, 17);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navegação */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(8, 12, 4);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Efeito hover nos links */
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Seções com cores de fundo diferentes */
+  .secao-clara {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+  }
+  
+  .secao-escura {
+    background-color: #e0e0ff;
+    padding: 40px 20px;
+  }
+  
+  /* Galeria */
+  figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  figure img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Tabela de serviços */
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #350606;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Formulário */
+  form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Botão com efeito hover */
+  button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }

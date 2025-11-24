@@ -1,0 +1,71 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #fdfaf7;
+  color: #3b2f2f;
+  line-height: 1.6;
+  border: 60px solid #5a3e2b; /* Moldura marrom escura em volta da página */
+  box-sizing: border-box;
+}
+
+header {
+  background: #d9b99b;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 12px;
+}
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  border: 2px solid #5a3e2b;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #5a3e2b;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #c9b7a9;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+ul li span.icon {
+  font-size: 1.4rem;
+  margin-right: 12px;
+  color: #5a3e2b;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #d9b99b;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  border-radius: 12px;
+}
